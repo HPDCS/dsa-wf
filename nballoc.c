@@ -143,7 +143,7 @@ void init(){
 
 
 
-void __attribute__ ((constructor(1))) premain(){
+void __attribute__ ((constructor(500))) premain(){
     init();
 }
 
